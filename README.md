@@ -1,32 +1,24 @@
-# Machine Learning Notebook
+# Amazon Product Recommendation Experiments
 
-This repository contains a starter Jupyter/Colab notebook for machine learning work focused on Amazon-related experiments.
+A Jupyter notebook for exploratory machine-learning work on Amazon-related data. The notebook is set up for Google Colab or a local Jupyter environment.
 
-## Repository contents
+## Contents
 
-- `amazonml.ipynb` — main notebook file (Google Colab compatible)
+- `amazonml.ipynb` — the experiment notebook
 
-## Open the notebook
+## Run
 
-### Option 1: Google Colab
-Use the Colab badge inside the notebook or open:
+### Google Colab
 
-`https://colab.research.google.com/github/thedragoncoder/Machine_Learning/blob/main/amazonml.ipynb`
+Upload `amazonml.ipynb` to [Google Colab](https://colab.research.google.com/) and run the cells in order.
 
-### Option 2: Run locally
-1. Install Python 3.8+ and Jupyter.
-2. From the repository root, start Jupyter:
-   - `jupyter notebook`
-3. Open `amazonml.ipynb` in your browser.
+### Local Jupyter
 
-## Requirements
-
-- Python 3
-- Jupyter Notebook (or Google Colab)
+```bash
+python -m pip install jupyter pandas numpy scikit-learn matplotlib
+jupyter notebook amazonml.ipynb
+```
 
 ## Notes
 
-The notebook is currently a base template and can be expanded with:
-- data loading and preprocessing
-- model training and evaluation
-- visualizations and result analysis
+This repository preserves an exploratory notebook rather than a packaged training pipeline. Data paths and runtime settings may need updating before rerunning the experiments.
